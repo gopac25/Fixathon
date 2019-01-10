@@ -1,0 +1,10 @@
+curl -u "gopalakrishnan.c:admin" -X POST --data '{"transition":{"id":"21"}}' -H "Content-Type: application/json" http://192.168.40.46:8090/rest/api/2/issue/ON-10/transitions
+
+curl -u "gopalakrishnan.c:admin" -X POST --data '{"transition":{"id":"21"}}' -H "Content-Type: application/json" http://192.168.40.46:8090/rest/api/2/issue/ON-34/transitions 
+
+
+
+
+curl -u "gopalakrishnan.c@prodapt.com:12345678" -X POST --data '{"transition":{"id":"31"}}' -H "Content-Type: application/json" https://fixathondeploy.atlassian.net/rest/api/2/issue/OD-7/transitions
+
+curl -u "gopalakrishnan.c:admin" -X POST --data '{"transition":{"id":"31"}}' -H "Content-Type: application/json" http://192.168.40.46:8090/rest/api/2/issue/ON-34/transitions 
